@@ -1,4 +1,22 @@
-html {
-  height: 100%;
+
+p{
+  font-size: 18px;
+  text-align: center;
+}
+#missao-destaque{
+  color: blue;
+}
+#missao{
+  font-size: 25px;
+  color: #ff0505;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  font-size: 25px;
+}
+img{
   width: 100%;
 }
