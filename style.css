@@ -22,5 +22,24 @@ img{
 }
 #Benificios{
   font-size: 25px;
-  font
+}
+.beneficios{
+  background-color: #ffffffff;
+  padding: 20px;
+}
+.item{
+  font-style: italic;
+}
+.imagem-beneficios{
+  width: 50%;
+}
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 20%;
+}
+.principal{
+  background-color: #cccc;
+  padding: 20;
 }
