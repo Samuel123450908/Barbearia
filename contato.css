@@ -1,56 +1,5 @@
-
-#banner {
-  width:100%;
-}
-
-.principal{
-  background: #CCCCCC;
-  padding: 30px;
-}
-
-.titulo-principal {
-  padding-left: 20px;
-}
-
-.titulo-centralizado {
-  text-align: center
-}
-
-p {
-  text-align: center;
-}
-
-#missao {
-  font-size: 20px
-}
-
-em strong {
-  color: #FF0000;
-}
-
-.itens {
-  font-style: italic
-}
-
-.beneficios {
-  background: #FFFFFF;
-  padding: 20px;
-}
-
-ul {
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
-}
-
-.imagembeneficios {
-  width: 50%;
-}
-Produtos css
-
 header {
-  background: black;
+  background: #BBBBBB;
   padding: 20px 0;
 }
 
@@ -107,7 +56,7 @@ nav a:hover {
 }
 
 .produtos li:active {
-  border-color: #088C19;
+  border-color: #088C19;	
 }
 
 .produtos li:hover h2 {
@@ -129,11 +78,65 @@ nav a:hover {
   margin-top: 10px;
 }
 
-.botao{
-  border-bottom: 20px;
-  padding: 20px 50px;
-  background-color: #CCCCCC;
-  margin: 20px 20px;
-  font-size: 15px;
+footer{
   text-align: center;
+  background: url("bg.jpg");
+  padding: 40px 0px;
+}
+.Copyright{
+  color: white;
+  font-size: 13px;
+  margin: 20px 0px;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label, form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 10px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar {
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  width: 80%;
+  transition: 0.3s all;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  background-color:  green;
+  transform: scale(1.20);
+}
+
+.table {
+  margin: 20px 0 40px; 
+}
+
+thead {
+  background-color: grey
 }
